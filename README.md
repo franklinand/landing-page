@@ -1,1 +1,2 @@
 # landing-page
+This project is a demonstration of my ability to style a webpage using CSS, specifically, Flexbox. The aim of this webpage is to design a template for a landing page that could be used in a variety of contexts.
