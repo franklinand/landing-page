@@ -1,45 +1,25 @@
  * {
   box-sizing: border-box;
-  border-style: solid;
-  border-color: red;
-  border-radius: 1px;
-} 
+ }
 
-html {
-    /* height: 100%;
-    margin: auto;
-    width: 960px;  */
-    /* background-color: #a28089; */
-}
+
 
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    /* overflow-x: hidden;  */
     font-family: Roboto, sans-serif;
   }
-  
-
-/* .introduction {
-    display: flex;
-    justify-content: flex-start;
-    background: #a28089;
-    padding: 0px 200px 20px 200px; 
-}
- */
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 8px;
     background: #a28089;
-    /* padding-bottom: -30px; */
     margin-bottom: -10px;
     padding-right: 260px;
     padding-left: 260px;
-    /* width: 10000px; */
   }
 
   button.sign1 {
@@ -55,21 +35,15 @@ li {
 }
 a {
     text-decoration: none;
+    color: black;
 
 }
-
-  /* .right-links {
-    display: inline-flex; 
-    align-items: center;
-    justify-content: flex-end;
-  } */
 
 .logo,
 .right-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 1200px; */
   }
 
  .right-links {
@@ -92,13 +66,10 @@ a {
   
 
 img.logo {
-    /* display: flex;
-    justify-content: flex-start; */
     width: 50px;
     height: auto;
     font-size: 24px;
     color: #F9FAF8;
-    /* margin-right: auto; */
 }
 
 .begin {
@@ -106,7 +77,6 @@ img.logo {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* gap: 20px */ 
 }
 
 
@@ -117,13 +87,10 @@ img.logo {
     justify-content: center;
     align-items: flex-start;
     align-content: center;
-    /* padding: 0px 200px; */
     background-color: #a28089;
     font-size: 48px;
     font-weight: bolder;
     padding-top: -10px;
-    /* flex-shrink: 0; */
-     /* margin-bottom: auto; */
 }
 
 .subtext {
@@ -132,46 +99,25 @@ img.logo {
     justify-content: space-between;
     align-items: center;
     flex-basis: 50%; 
-    /* gap: 0px 50px; */
     width: 700px;
-    /* padding: 8px 200px; */
     font-size: 18px;
     font-weight: 100;
-    /* background: #a28089; */
 
 }
-/* 
-.mainleft{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-} */
+
 
 img.introimg {
     display: flex;
-    /* flex: 1; */
     justify-content: center;
     align-items: flex-start;
     width: 100px;
     height: auto;
     gap: 50px;
-    /* margin-top: 50px; */
     margin-left: 100px;
-    /* margin-top: 10px; */
-    /* align-self: flex-start; */
-    /* margin-top: -50px; */
+
 }
 
-/* p {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-    height: 100px;
-    flex: 1 0 50%;
-    font-size: 18px;
-    color: black;
-} */
+
 button.sign1 {
     margin-top: 10px;
     max-width: 100px;
@@ -190,7 +136,6 @@ button.sign1 {
     font-size: 36px;
     font-weight: bolder;
     color: #d0bdf4;
-    /* color: #e5eaf5; */
 
 }
 
@@ -207,10 +152,11 @@ button.sign1 {
 img.clothes {
     width: 200px;
     height: 200px;
+    border-radius: 25px;
+
 }
 
 .imgtext {
-    /* color: #e5eaf5; */
     color: #d0bdf4;
 
 }
@@ -223,14 +169,9 @@ img.clothes {
     font-size: 36px;
     font-style: italic;
     padding: 100px;
-    /* background-color: #e5e7eb; */
     background-color: #e1b382;
 }
 
-/* .words, 
-.author {
-    color: #8458B3;
-} */
 
 .author {
     align-self: flex-end;
@@ -259,31 +200,16 @@ img.clothes {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8px;
-    /* padding-top: 20px; */
+
 }
 
-/* .modtext {
-    display: flex;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-content: center;
-    padding: 30px;
-} */
-
 button.sign2 {
-    /* display: flex;
-    gap: 20px;
-    max-width: 100px; */
     align-self: flex-start;
     margin-left: 30px;
     background-color: #e5e7eb;
     border-radius: 25px;
     width: 100px;
     color: #3882f6;
-    /* padding-top: 30px; */
 
 }
 
@@ -297,7 +223,7 @@ button.sign2 {
     background-color: #e5e7eb;
     padding: 50px;
     color: #3882f6;
-    /* margin-right: 30px;  */
+
 } 
 
 .footer {
