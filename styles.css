@@ -6,7 +6,10 @@
 } 
 
 html {
-    /* background-color: #a28089; */
+    /* height: 100%;
+    margin: auto;
+    width: 960px;
+    background-color: #a28089; */
 }
 
 body {
@@ -14,7 +17,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /* overflow-x: hidden;  */
     font-family: Roboto, sans-serif;
   }
   
@@ -163,4 +166,41 @@ button {
 
 .display {
     text-align: center;
+    background-color: #2d545e;
+    padding-top: 20px;
+}
+
+.subhead {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #d0bdf4;
+    /* color: #e5eaf5; */
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.images {
+    max-width: 200px;
+}
+
+img.clothes {
+    width: 200px;
+    height: 200px;
+}
+
+.imgtext {
+    /* color: #e5eaf5; */
+    color: #d0bdf4;
+
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
 }
